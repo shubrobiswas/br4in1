@@ -1,0 +1,11 @@
+# gitleaks config: default rules plus repo-specific allowlist of known test fixtures.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "documentation examples and test fixtures (reviewed in repo-hardening audit)"
+paths = [
+  '''(^|/)tests?/''',
+  '''(^|/)test-fixtures/''',
+  '''(^|/)docs/.*\.md$''',
+]

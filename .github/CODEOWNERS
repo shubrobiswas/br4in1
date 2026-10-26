@@ -1,0 +1,5 @@
+# Default owner for everything in the repo
+* @shubrobiswas
+
+# Workflows and security-sensitive config need owner review
+/.github/ @shubrobiswas
